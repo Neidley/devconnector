@@ -54,7 +54,7 @@ const ProfileSchema = new Schema({
       },
       to: {
         type: Date
-      }
+      },
       current: {
         type: Boolean,
         default: false
@@ -84,7 +84,7 @@ const ProfileSchema = new Schema({
       },
       to: {
         type: Date
-      }
+      },
       current: {
         type: Boolean,
         default: false
@@ -109,7 +109,7 @@ const ProfileSchema = new Schema({
     },
     instagram: {
       type: String
-    },
+    }
   },
   date: {
     type: Date,
